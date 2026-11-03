@@ -39,7 +39,7 @@ To run the simulation, execute `main.py`:
 
 ```bash
 python main.py
-
+```
 ##  Student Implementations
 Implementations include 
 1: Changing the Logical Proposition in the while loop from P^Q^R to P^(Q v R) to prevent the game ending when one enemy has died
