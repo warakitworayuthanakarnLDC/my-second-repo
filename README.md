@@ -42,5 +42,5 @@ python main.py
 ```
 ##  Student Implementations
 Implementations include 
-1: Changing the Logical Proposition in the while loop from P^Q^R to P^(Q v R) to prevent the game ending when one enemy has died
-2: Adding in random.randint function in charachter.py to randomize a damage coefficient between 30-90%
+1. Changing the Logical Proposition in the while loop from P^Q^R to P^(Q v R) to prevent the game ending when one enemy has died
+2. Adding in random.randint function in charachter.py to randomize a damage coefficient between 30-90%
