@@ -10,8 +10,9 @@ def main():
     print(enemy2)
     print()
 
-    while hero.is_alive() and enemy.is_alive() and enemy2.is_alive():
+    while hero.is_alive() and ( enemy.is_alive() or enemy2.is_alive() ):
         hero.attack(enemy)
+        hero.attack(enemy2)
         if enemy.is_alive():
             enemy.attack(hero)
 
